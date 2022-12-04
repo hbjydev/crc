@@ -16,6 +16,7 @@ const (
 		<host mac='{{ .MAC }}' ip='{{ .IP }}'/>
 	  </dhcp>
 	</ip>
+	<binary path='/run/current-system/sw/bin/virtiofsd' xattr='on'>
   </network>`
 )
 
